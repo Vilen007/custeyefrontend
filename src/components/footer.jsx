@@ -28,16 +28,16 @@ function Footer() {
                                 <h5 className="widget-title">HOME</h5>
                                 <ul className="thumbnail-widget">
                                     <li>
-                                        <div className="thumb-content"><a href="#.">PRODUCT</a></div>
+                                        <div className="thumb-content"><a href="#">PRODUCT</a></div>
                                     </li>
                                     <li>
-                                        <div className="thumb-content"><a href="#.">SECURITY</a></div>
+                                        <div className="thumb-content"><a href="#">SECURITY</a></div>
                                     </li>
                                     <li>
-                                        <div className="thumb-content"><a href="#.">CUSTOMERS</a></div>
+                                        <div className="thumb-content"><a href="#">CUSTOMERS</a></div>
                                     </li>
                                     <li>
-                                        <div className="thumb-content"><a href="#.">BLOG</a></div>
+                                        <div className="thumb-content"><a href="#">BLOG</a></div>
                                     </li>
                                 </ul>
                             </div>
@@ -48,16 +48,16 @@ function Footer() {
                                 <h5 className="widget-title">RESOURCES</h5>
                                 <ul className="thumbnail-widget">
                                     <li>
-                                        <div className="thumb-content"><a href="#.">VIDEO</a></div>
+                                        <div className="thumb-content"><a href="#">VIDEO</a></div>
                                     </li>
                                     <li>
-                                        <div className="thumb-content"><a href="#.">SUPPORT</a></div>
+                                        <div className="thumb-content"><a href="#">SUPPORT</a></div>
                                     </li>
                                     <li>
-                                        <div className="thumb-content"><a href="#.">USE CASE</a></div>
+                                        <div className="thumb-content"><a href="#">USE CASE</a></div>
                                     </li>
                                     <li>
-                                        <div className="thumb-content"><a href="#.">PODCAST</a></div>
+                                        <div className="thumb-content"><a href="#">PODCAST</a></div>
                                     </li>
                                 </ul>
                             </div>
@@ -68,16 +68,16 @@ function Footer() {
                                 <h5 className="widget-title">COMPANY</h5>
                                 <ul className="thumbnail-widget">
                                     <li>
-                                        <div className="thumb-content"><a href="#.">ABOUT</a></div>
+                                        <div className="thumb-content"><a href="#">ABOUT</a></div>
                                     </li>
                                     <li>
-                                        <div className="thumb-content"><a href="#.">LEADERSHIP</a></div>
+                                        <div className="thumb-content"><a href="#">LEADERSHIP</a></div>
                                     </li>
                                     <li>
-                                        <div className="thumb-content"><a href="#.">CAREERS</a></div>
+                                        <div className="thumb-content"><a href="#">CAREERS</a></div>
                                     </li>
                                     <li>
-                                        <div className="thumb-content"><a href="#.">CONTACT US</a></div>
+                                        <div className="thumb-content"><a href="#">CONTACT US</a></div>
                                     </li>
                                 </ul>
                             </div>

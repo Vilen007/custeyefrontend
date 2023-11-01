@@ -4,10 +4,10 @@ import Button from '@mui/material/Button';
 function Navbar() {
     return ( 
         <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm bg-white">
-      <div className="container justify-content-center">
+      <div className="container">
           <img src={appLogo} width="50px" height="50px" alt="logo"/>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars" aria-hidden="true"></i>
           </button>
         <div className="collapse navbar-collapse justify-content-center  navbar-brand" id="navbarSupportedContent">
           <ul className="navbar-nav  mb-2 mb-lg-0">

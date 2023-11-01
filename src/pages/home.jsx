@@ -3,7 +3,7 @@ import Footer from '../components/footer'
 import React, { useEffect, useRef } from 'react';
 import appLogo from "../pages/icon.png";
 import Button from '@mui/material/Button';
-const user = localStorage.getItem('user');
+const user =  localStorage.getItem('user');
 class Home extends React.Component {
 
 
@@ -244,9 +244,9 @@ class Home extends React.Component {
             </div>
 
 
-            <div style={{textAlign: 'center'}} className="mt-5">
+            <div style={{textAlign: 'center'}} className="container mt-5">
                 <Button variant="contained" color="primary" style={{ borderRadius: 18 + 'px'}}>
-                    <span className='p-2 px-5'> Learn more about Forward Networks Multi-cloud Solutions </span>
+                    <span className='p-2 px-2'> Learn more about Forward Networks Multi-cloud Solutions </span>
                 </Button>
             </div>
 
@@ -284,9 +284,9 @@ class Home extends React.Component {
             </div>
 
 
-            <div style={{textAlign: 'center', marginTop: 50 + 'px', marginBottom: 60 + 'px'}}>
+            <div className='container' style={{textAlign: 'center', marginTop: 50 + 'px', marginBottom: 60 + 'px'}}>
                     <Button variant="contained" color="primary" style={{ borderRadius: 18 + 'px'}}>
-                        <span className='p-2 px-5'> Learn more about Forward Networks' Assurance Solutions </span>
+                        <span className='p-2 px-2'> Learn more about Forward Networks' Assurance Solutions </span>
                     </Button>
             </div>
 
@@ -366,9 +366,9 @@ class Home extends React.Component {
 
              {/* You're covered with Forward */}
         <div className='allcompanylogos container'>
-            <div className='companylogo'>
-                <h1 className='text-center'>You're covered with Forward</h1>
-                <p className='text-center'>Forward Enterprise is multi-vendor and fully-scalable</p>
+            <div className='companylogo text-center'>
+                <h1 className=''>You're covered with Forward</h1>
+                <p className=''>Forward Enterprise is multi-vendor and fully-scalable</p>
                 <img src={appLogo} width="80px" height="80px" />
                 <img src={appLogo} width="80px" height="80px" />
                 <img src={appLogo} width="80px" height="80px" />
@@ -403,7 +403,7 @@ class Home extends React.Component {
 
 
         {/* See for yourself */}
-        <div className='wraptextblock'>
+        <div className='wraptextblock mt-4'>
             <div className='textblock'>
                 <h1>See for yourself</h1>
                 <p>Winner of over 20 industry awards, Forward Enterprise is the best-in-class network modeling software that customers love</p>
@@ -413,7 +413,7 @@ class Home extends React.Component {
                 <img src={appLogo}  width="80px" height="80px" />
 
             </div>
-                <Button variant="contained" color="secondary">
+                <Button variant="contained" color="primary" className="mt-5 mb-5">
                     Request a demo
                 </Button>
         </div>

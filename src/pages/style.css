@@ -168,7 +168,7 @@ button:hover{
 
 .textblock{
   line-height: 30px;
-  padding: 100px;
+  padding: 30px;
   justify-content: center;
   text-align: center;
 }
@@ -195,3 +195,4 @@ button:hover{
   border-radius: 50%;
   top: 30px;
 }
+
